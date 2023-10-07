@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width: 80%;
+}
+.one{
+    background: url(images/a-beleza-da-natureza-refletida-nas-tranquilas-aguas-montanhosas-ia-generativa_188544-7867.avif);
+}
+.two{
+    background: url(images/cena-tranquila-de-ia-generativa-de-crescimento-de-floresta-tropical_188544-31786.jpg);
+}
+.three{
+    background: url(images/por-do-sol-ilumina-ruinas-antigas-na-paisagem-urbana-italiana-gerada-por-ia_188544-23839.jpg);
+}
+.four{
+    background: url(images/ruas-sujas-paredes-de-graffiti-vida-caotica-da-cidade-gerada-por-ia_188544-30836.jpg);
+}
+.section{
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 80vh; 
+    cursor: pointer; 
+    flex: 0.2; 
+    margin:8px; 
+    position: relative; 
+    transition: all 0.7s ease-out;
+}
+.section.active{
+    flex: 3;
+}
