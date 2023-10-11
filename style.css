@@ -15,6 +15,7 @@
     background: url(images/ruas-sujas-paredes-de-graffiti-vida-caotica-da-cidade-gerada-por-ia_188544-30836.jpg);
 }
 .section{
+    border-radius: 30px;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
